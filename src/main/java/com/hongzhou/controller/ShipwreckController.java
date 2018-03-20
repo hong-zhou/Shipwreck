@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hongzhou.model.Shipwreck;
-import com.hongzhou.repository.ShipwreckRepository;
+//import com.hongzhou.repository.ShipwreckRepository;
 
 @RestController
 @RequestMapping("api/v1")
 public class ShipwreckController {
 	
-	@Autowired
-	private ShipwreckRepository shipwreckRepository;
+	/*@Autowired
+	private ShipwreckRepository shipwreckRepository;*/
 
 	@RequestMapping(value = "shipwrecks", method = RequestMethod.GET)
 	public List<Shipwreck> list(){

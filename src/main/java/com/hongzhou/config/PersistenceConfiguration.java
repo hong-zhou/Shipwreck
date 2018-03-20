@@ -1,4 +1,4 @@
-package com.hongzhou.config;
+/*package com.hongzhou.config;
 
 import javax.sql.DataSource;
 
@@ -19,10 +19,10 @@ public class PersistenceConfiguration {
 		return DataSourceBuilder.create().build();
 	}
 	
-/*	@Bean
+	@Bean
 	@ConfigurationProperties(prefix="datasource.flyway")
 	@FlywayDataSource
 	public DataSource flywayDataSource() {
 		return DataSourceBuilder.create().build();
-	}*/
-}
+	}
+}*/
